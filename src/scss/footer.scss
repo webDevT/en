@@ -1,0 +1,161 @@
+@import "variables";
+
+.footer {
+	background: $yellow;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	.container-fluid {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+.footer__left {
+	display: flex;
+	a {
+		display: block;
+		font-size: 18px;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-family: $rubik;
+		color: $blue;
+		margin-right: 40px;
+
+	}
+}
+.top {
+	cursor: pointer;
+}
+.footer__copy {
+	display: flex;
+	align-items: center;
+	margin-right: 80px;
+	font-size: 18px;
+	font-family: $rubik;
+	font-weight: 700;
+	text-transform: uppercase;
+	img {
+		display: block; 
+		margin-right: 7px;
+	}
+}
+.footer__right {
+	display: flex;
+	align-items: center;
+}
+.footer-social {
+	display: flex;
+	a {
+		img {
+			display: none;
+		}
+	}
+}
+.footer__mobile-menu,
+.copy-mobile {
+	display: none;
+}
+
+@media only screen and (max-width : 1200px) {
+
+	.footer__left {
+		a {
+			margin-right: 20px;
+		}
+	}
+	.footer__copy {
+		margin-right: 20px;
+	}
+	
+	
+	 
+}
+
+@media only screen and (max-width : 992px) {
+	
+	.footer__copy {
+		display: none;
+	}
+	.footer__left {
+		flex-direction: column;
+	}
+	.footer-site {
+		order: 1;
+	}
+	.footer-social {
+		order: 2;
+	}
+	.footer-site {
+		text-decoration: underline;
+		margin-bottom: 20px;
+	}
+
+
+
+}
+
+@media only screen and (max-width : 768px) { 
+	
+	.footer__left .footer-site {
+		font-size: 4.800vw;
+		margin-bottom: 5.333vw;
+	}
+	.footer-social a {
+		display: flex;
+		align-items: flex-end;
+		margin-right: 6.400vw;
+		img {
+			display: block;
+		}
+		span {
+			display: none;
+		}
+	}
+	.footer {
+		padding-top: 6.400vw;
+		padding-bottom: 6.400vw;
+		.container-fluid {
+			position: relative;
+			flex-direction: column;
+			align-items: flex-start;
+		}
+		.footer__right {
+			position: absolute;
+			right: 0;
+			top: 0;
+			img {
+				width: 16.800vw;
+			}
+		}
+	}
+	.copy-mobile {
+		display: flex;
+		font-size: 4.267vw;
+		margin-top: 6.400vw;
+		margin-bottom: 2.133vw;
+		img {
+			margin: 0 2.133vw;
+		}
+	}
+	.footer__mobile-menu {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 2.2vw;
+		position: relative;
+		left: -1.2vw;
+	}
+	.footer__mobile-menu a {
+		font-size: 4.267vw;
+		color: $text-color;
+		padding: 0px 1.2vw;
+		border-right: 1px solid $text-color;
+		margin-bottom: 5vw;
+		display: block;
+		line-height: 1;
+	}
+	.footer__mobile-menu a:last-child {
+		border-right: none;
+	}
+
+	
+}

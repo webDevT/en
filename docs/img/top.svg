@@ -1,0 +1,8 @@
+<svg id="Component_8_3" data-name="Component 8 – 3" xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63">
+  <circle id="Ellipse_38" data-name="Ellipse 38" cx="31.5" cy="31.5" r="31.5" fill="#18ccf5"/>
+  <g id="Arrow" transform="translate(-196.617 -1.5)">
+    <line id="Line_6" data-name="Line 6" y2="21.893" transform="translate(228.735 24.107)" fill="none" stroke="#24274f" stroke-linecap="round" stroke-width="8"/>
+    <line id="Line_7" data-name="Line 7" x1="11.517" y2="10.366" transform="translate(217.617 19.5)" fill="none" stroke="#24274f" stroke-linecap="round" stroke-width="8"/>
+    <line id="Line_8" data-name="Line 8" x2="10.366" y2="10.366" transform="translate(229.134 19.5)" fill="none" stroke="#24274f" stroke-linecap="round" stroke-width="8"/>
+  </g>
+</svg>
